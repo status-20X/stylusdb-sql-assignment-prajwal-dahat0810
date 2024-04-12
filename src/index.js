@@ -22,7 +22,6 @@ async function executeSELECTQuery(query) {
       return filteredRow;
     });
   } catch (error) {
-   
     console.error("Error executing SELECT query:", error.message);
     throw error;
   }
